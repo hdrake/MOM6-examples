@@ -1,0 +1,3 @@
+#!/bin/bash
+source clean.sub
+srun -n 1 ../../../build/intel/ocean_only/repro/MOM6
