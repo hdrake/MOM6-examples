@@ -1,0 +1,57 @@
+/var/spool/slurm/job269076187/slurm_script: line 14: ./clean.sub: Permission denied
+ Entering coupler_init at 20220809 010202.907
+ Starting initializing ensemble_manager at 20220809 010202.909
+ Finished initializing ensemble_manager at 20220809 010202.911
+ Starting to initialize diag_manager at 20220809 010202.912
+ Finished initializing diag_manager at 20220809 010202.980
+ Starting to initialize tracer_manager at 20220809 010203.023
+ Finished initializing tracer_manager at 20220809 010203.211
+ Beginning to initialize component models at 20220809 010203.211
+ Starting to initialize atmospheric model at 20220809 010203.212
+ Finished initializing atmospheric model at 20220809 010203.453
+ Starting to initialize land model at 20220809 010203.505
+ Finished initializing land model at 20220809 010203.652
+ Starting to initialize ice model at 20220809 010203.667
+
+WARNING from PE     0: MPP_OPEN: File ./seaice.stats opened WRONLY already exists!
+
+ Finished initializing ice model at 20220809 010208.771
+ Starting to initialize ocean model at 20220809 010208.793
+
+WARNING from PE     0: MOM_obsolete_params: ETA_TOLERANCE_AUX is an obsolete run-time flag.
+
+
+WARNING from PE     0: reset_face_lengths_list unused v-face line: V_width,  28.8,  29.4, 41.1, 41.2,   2500.0
+
+
+WARNING from PE     0: reset_face_lengths_list unused v-face line: V_width, 141.5, 141.7, 52.0,  52.15, 2500.0
+
+
+WARNING from PE     0: Previous msg:INTERPOLATION_SCHEME = "P1M_H2" ! default = "P1M_H2"
+
+
+WARNING from PE     0: New message :INTERPOLATION_SCHEME = "PPM_H4" ! default = "PPM_H4"
+
+
+WARNING from PE     0: Encountered inconsistent documentation line for parameter INTERPOLATION_SCHEME!
+
+
+WARNING from PE     0: MEKE_init: Initializing MEKE with a local equilibrium balance.
+
+
+WARNING from PE     0: set_diffusivity_init: SIMPLE_TKE_TO_KD can not be used reliably with USE_REGRIDDING.
+
+ Finished initializing ocean model at 20220809 010229.101
+ Starting to initialize data_override at 20220809 010229.101
+ Finished initializing data_override at 20220809 010229.109
+ Finished initializing component models at 20220809 010229.109
+ Starting to initialize flux_exchange at 20220809 010229.126
+ Finsihed initializing flux_exchange at 20220809 010229.364
+ Exiting coupler_init at 20220809 010229.427
+
+WARNING from PE     0: MPP_OPEN: File ./ocean.stats opened WRONLY already exists!
+
+
+WARNING from PE     0: diag_util_mod::opening_file: module/field_name (ocean_model/hfsolidrunoffds) NOT registered
+
+                              20220809 010348.498: Memuse(MB) at Memory HiWaterMark=  2.660E+02  5.690E+02  1.473E+01  2.730E+02

@@ -1,0 +1,15 @@
+#!/bin/bash
+
+#SBATCH -n 420
+#SBATCH --time=0:10:00
+#SBATCH --job-name="MOM6-OTEC-dev"
+#SBATCH --output=slurm.out
+#SBATCH --error=slurm.err
+#SBATCH --qos=normal
+#SBATCH --partition=batch
+#SBATCH --clusters=c4
+## obviously use your group account:
+#SBATCH --account=gfdl_o
+
+./clean.sub
+srun -n 420 ../../build/intel/ice_ocean_SIS2/repro/MOM6

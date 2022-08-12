@@ -1,0 +1,15 @@
+"OM4_SIS2_cgrid_05"
+1900 1 1 0 0 0
+
+#  Static  file
+"ocean_static",  -1,  "months",  1,  "days",  "time"  #  ocean_static  is  a  protected  name.  Do  not  change  this  line.
+"ocean_model",  "deptho",     "deptho",     "ocean_static",  "all",  "none",  "none",  2
+"ocean_model",  "geolon",     "geolon",     "ocean_static",  "all",  "none",  "none",  2
+"ocean_model",  "geolat",     "geolat",     "ocean_static",  "all",  "none",  "none",  2
+"ocean_model",  "wet",        "wet",        "ocean_static",  "all",  "none",  "none",  2
+
+#  High-frequency  file
+"ocean_6hourly_%4yr_%3dy",  6,  "hours",  1,  "days",  "time",  1,  "months"
+"ocean_model", "temp_layer_ave", "temp", "ocean_6hourly_%4yr_%3dy", "all", "none", "none", 2
+"ocean_model", "thetao", "thetao", "ocean_6hourly_%4yr_%3dy", "all", "none", "none", 2
+

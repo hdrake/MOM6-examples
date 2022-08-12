@@ -1,0 +1,50 @@
+ Entering coupler_init at 20220805 155353.253
+ Starting initializing ensemble_manager at 20220805 155353.260
+ Finished initializing ensemble_manager at 20220805 155353.263
+ Starting to initialize diag_manager at 20220805 155353.283
+ Finished initializing diag_manager at 20220805 155353.315
+ Starting to initialize tracer_manager at 20220805 155353.381
+ Finished initializing tracer_manager at 20220805 155353.455
+ Beginning to initialize component models at 20220805 155353.455
+ Starting to initialize atmospheric model at 20220805 155353.458
+ Finished initializing atmospheric model at 20220805 155353.765
+ Starting to initialize land model at 20220805 155353.816
+ Finished initializing land model at 20220805 155353.924
+ Starting to initialize ice model at 20220805 155353.942
+ Finished initializing ice model at 20220805 155407.799
+ Starting to initialize ocean model at 20220805 155407.821
+
+WARNING from PE     0: MOM_obsolete_params: ETA_TOLERANCE_AUX is an obsolete run-time flag.
+
+
+WARNING from PE     0: reset_face_lengths_list unused v-face line: V_width,  28.8,  29.4, 41.1, 41.2,   2500.0
+
+
+WARNING from PE     0: reset_face_lengths_list unused v-face line: V_width, 141.5, 141.7, 52.0,  52.15, 2500.0
+
+
+WARNING from PE     0: Previous msg:INTERPOLATION_SCHEME = "P1M_H2" ! default = "P1M_H2"
+
+
+WARNING from PE     0: New message :INTERPOLATION_SCHEME = "PPM_H4" ! default = "PPM_H4"
+
+
+WARNING from PE     0: Encountered inconsistent documentation line for parameter INTERPOLATION_SCHEME!
+
+
+WARNING from PE     0: MEKE_init: Initializing MEKE with a local equilibrium balance.
+
+
+WARNING from PE     0: set_diffusivity_init: SIMPLE_TKE_TO_KD can not be used reliably with USE_REGRIDDING.
+
+ Finished initializing ocean model at 20220805 155412.188
+ Starting to initialize data_override at 20220805 155412.188
+ Finished initializing data_override at 20220805 155412.192
+ Finished initializing component models at 20220805 155412.192
+ Starting to initialize flux_exchange at 20220805 155412.211
+ Finsihed initializing flux_exchange at 20220805 155412.890
+ Exiting coupler_init at 20220805 155414.011
+
+WARNING from PE     0: diag_util_mod::opening_file: module/field_name (ocean_model/hfsolidrunoffds) NOT registered
+
+                              20220805 155543.783: Memuse(MB) at Memory HiWaterMark=  2.667E+02  5.668E+02  1.459E+01  2.739E+02
