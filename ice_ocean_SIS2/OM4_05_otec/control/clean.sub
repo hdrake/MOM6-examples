@@ -1,0 +1,9 @@
+#!/bin/bash
+
+rm *.nc*
+rm core
+rm slurm*
+rm *available_diags*
+rm *.out
+rm RESTART/*
+

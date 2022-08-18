@@ -1,18 +1,22 @@
- Entering coupler_init at 20220805 155353.253
- Starting initializing ensemble_manager at 20220805 155353.260
- Finished initializing ensemble_manager at 20220805 155353.263
- Starting to initialize diag_manager at 20220805 155353.283
- Finished initializing diag_manager at 20220805 155353.315
- Starting to initialize tracer_manager at 20220805 155353.381
- Finished initializing tracer_manager at 20220805 155353.455
- Beginning to initialize component models at 20220805 155353.455
- Starting to initialize atmospheric model at 20220805 155353.458
- Finished initializing atmospheric model at 20220805 155353.765
- Starting to initialize land model at 20220805 155353.816
- Finished initializing land model at 20220805 155353.924
- Starting to initialize ice model at 20220805 155353.942
- Finished initializing ice model at 20220805 155407.799
- Starting to initialize ocean model at 20220805 155407.821
+/var/spool/slurm/job269101573/slurm_script: line 14: ./clean.sub: Permission denied
+ Entering coupler_init at 20220817 211853.035
+ Starting initializing ensemble_manager at 20220817 211853.041
+ Finished initializing ensemble_manager at 20220817 211853.042
+ Starting to initialize diag_manager at 20220817 211853.056
+ Finished initializing diag_manager at 20220817 211853.078
+ Starting to initialize tracer_manager at 20220817 211853.103
+ Finished initializing tracer_manager at 20220817 211853.230
+ Beginning to initialize component models at 20220817 211853.230
+ Starting to initialize atmospheric model at 20220817 211853.232
+ Finished initializing atmospheric model at 20220817 211853.513
+ Starting to initialize land model at 20220817 211853.622
+ Finished initializing land model at 20220817 211853.709
+ Starting to initialize ice model at 20220817 211853.727
+
+WARNING from PE     0: MPP_OPEN: File ./seaice.stats opened WRONLY already exists!
+
+ Finished initializing ice model at 20220817 211855.083
+ Starting to initialize ocean model at 20220817 211855.094
 
 WARNING from PE     0: MOM_obsolete_params: ETA_TOLERANCE_AUX is an obsolete run-time flag.
 
@@ -37,14 +41,17 @@ WARNING from PE     0: MEKE_init: Initializing MEKE with a local equilibrium bal
 
 WARNING from PE     0: set_diffusivity_init: SIMPLE_TKE_TO_KD can not be used reliably with USE_REGRIDDING.
 
- Finished initializing ocean model at 20220805 155412.188
- Starting to initialize data_override at 20220805 155412.188
- Finished initializing data_override at 20220805 155412.192
- Finished initializing component models at 20220805 155412.192
- Starting to initialize flux_exchange at 20220805 155412.211
- Finsihed initializing flux_exchange at 20220805 155412.890
- Exiting coupler_init at 20220805 155414.011
+ Finished initializing ocean model at 20220817 211900.938
+ Starting to initialize data_override at 20220817 211900.938
+ Finished initializing data_override at 20220817 211900.949
+ Finished initializing component models at 20220817 211900.949
+ Starting to initialize flux_exchange at 20220817 211900.983
+ Finsihed initializing flux_exchange at 20220817 211901.678
+ Exiting coupler_init at 20220817 211901.812
+
+WARNING from PE     0: MPP_OPEN: File ./ocean.stats opened WRONLY already exists!
+
 
 WARNING from PE     0: diag_util_mod::opening_file: module/field_name (ocean_model/hfsolidrunoffds) NOT registered
 
-                              20220805 155543.783: Memuse(MB) at Memory HiWaterMark=  2.667E+02  5.668E+02  1.459E+01  2.739E+02
+                              20220817 212013.769: Memuse(MB) at Memory HiWaterMark=  2.540E+02  5.386E+02  1.384E+01  2.604E+02

@@ -1,0 +1,4 @@
+! Blank file in which we can put "overrides" for parameters
+! === module MOM_otec ===
+USE_OTEC = False
+
