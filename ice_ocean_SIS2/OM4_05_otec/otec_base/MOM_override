@@ -1,7 +1,7 @@
 ! Blank file in which we can put "overrides" for parameters
 ! === module MOM_otec ===
 USE_OTEC = True
-OTEC_W_CW  = 1.e-4               ! OTEC pumping rate [m s-1]
+OTEC_W_CW  = 2.e-8               ! OTEC pumping rate [m s-1]
 OTEC_GAMMA = 1.0                 ! Ratio of warm- to cold-water volume pumping rates for OTEC
 OTEC_COLD_DEPTH = 1000.0         ! Depth of the OTEC cold-water intake [m]
 OTEC_WARM_DEPTH = 10.0           ! Depth of the OTEC warm-water intake [m] 

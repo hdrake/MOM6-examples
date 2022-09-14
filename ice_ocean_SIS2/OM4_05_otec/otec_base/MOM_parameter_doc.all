@@ -1648,16 +1648,20 @@ APPLY_OTEC_THERMO = True        !   [Boolean] default = True
                                 ! Whether to apply thermodynamic tendencies due to OTEC
 APPLY_OTEC_TRACER = True        !   [Boolean] default = True
                                 ! Whether to apply passive tracer tendencies due to OTEC
-OTEC_W_CW = 1.0E-04             !   [m s-1] default = 0.0
-                                ! The constant OTEC cold-water pumping rate or 0 to disable OTEC.
+OTEC_WCW = 0.0                  !   [m s-1] default = 0.0
+                                ! The constant OTEC cold-water pumping rate, a rescaling factor for the pumping
+                                ! rates read from OTEC_FILE, or 0.0 to disable OTEC.
 OTEC_GAMMA = 1.0                !   [nondim] default = 1.0
                                 ! The ratio of warm- to cold-water OTEC pumping rates.
 OTEC_COLD_DEPTH = 1000.0        !   [m] default = 1000.0
                                 ! The depth of the cold-water intake for OTEC.
 OTEC_WARM_DEPTH = 10.0          !   [m] default = 20.0
                                 ! The depth of the warm-water intake for OTEC.
-OTEC_OUT_DEPTH = 300.0          !   [m] default = 500.0
+OTEC_OUT_DEPTH = 300.0          !   [m] default = 300.0
                                 ! The depth of the mixed-water output for OTEC.
+OTEC_FILE = ""                  ! default = ""
+                                ! The file from which the static OTEC pumping ratesare to be read, or blank for
+                                ! a uniform pumping ratet.
 
 ! === module MOM_set_diffusivity ===
 FLUX_RI_MAX = 0.2               !   [nondim] default = 0.2

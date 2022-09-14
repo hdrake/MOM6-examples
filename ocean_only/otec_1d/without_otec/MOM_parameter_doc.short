@@ -262,8 +262,10 @@ DTBT = 60.0                     !   [s or nondim] default = -0.98
 ! The following parameters are used for diabatic processes.
 
 ! === module MOM_otec ===
-OTEC_WARM_DEPTH = 5.0           !   [m] default = 20.0
+OTEC_WARM_DEPTH = 10.0          !   [m] default = 20.0
                                 ! The depth of the warm-water intake for OTEC.
+OTEC_OUT_DEPTH = 300.0          !   [m] default = 500.0
+                                ! The depth of the mixed-water output for OTEC.
 
 ! === module MOM_set_diffusivity ===
 BBL_EFFIC = 0.0                 !   [nondim] default = 0.2

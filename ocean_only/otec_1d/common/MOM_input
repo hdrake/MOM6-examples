@@ -331,8 +331,8 @@ BUOY_CONFIG = "NONE"            ! default = "zero"
 OTEC_W_CW = 1.e-4                ! Pumpting rate (upwelling velocity) in the cold-water pipe
 OTEC_GAMMA = 1.0                 ! Ratio of warm- to cold-water volume pumping rates for OTEC
 OTEC_COLD_DEPTH = 1000.0         ! Depth of the OTEC cold-water intake [m]
-OTEC_WARM_DEPTH = 5.0           ! Depth of the OTEC warm-water intake [m]
-OTEC_OUT_DEPTH = 500.0           ! Depth of the OTEC mixed lukewarm discarge [m]
+OTEC_WARM_DEPTH = 10.0           ! Depth of the OTEC warm-water intake [m]
+OTEC_OUT_DEPTH = 300.0           ! Depth of the OTEC mixed lukewarm discarge [m]
 
 ! === module MOM_main (MOM_driver) ===
 DAYMAX = 30.0                    !   [days]

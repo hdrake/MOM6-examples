@@ -1205,9 +1205,9 @@ OTEC_GAMMA = 1.0                !   [nondim] default = 1.0
                                 ! The ratio of warm- to cold-water OTEC pumping rates.
 OTEC_COLD_DEPTH = 1000.0        !   [m] default = 1000.0
                                 ! The depth of the cold-water intake for OTEC.
-OTEC_WARM_DEPTH = 5.0           !   [m] default = 20.0
+OTEC_WARM_DEPTH = 10.0          !   [m] default = 20.0
                                 ! The depth of the warm-water intake for OTEC.
-OTEC_OUT_DEPTH = 500.0          !   [m] default = 500.0
+OTEC_OUT_DEPTH = 300.0          !   [m] default = 500.0
                                 ! The depth of the mixed-water output for OTEC.
 
 ! === module MOM_set_diffusivity ===

@@ -555,12 +555,8 @@ GEOTHERMAL_VARNAME = "geothermal_hf" ! default = "geo_heat"
 ! === module MOM_otec ===
 USE_OTEC = True                 !   [Boolean] default = False
                                 ! Whether or not to use the OTEC module
-OTEC_W_CW = 1.0E-04             !   [m s-1] default = 0.0
-                                ! The constant OTEC cold-water pumping rate or 0 to disable OTEC.
 OTEC_WARM_DEPTH = 10.0          !   [m] default = 20.0
                                 ! The depth of the warm-water intake for OTEC.
-OTEC_OUT_DEPTH = 300.0          !   [m] default = 500.0
-                                ! The depth of the mixed-water output for OTEC.
 
 ! === module MOM_set_diffusivity ===
 
