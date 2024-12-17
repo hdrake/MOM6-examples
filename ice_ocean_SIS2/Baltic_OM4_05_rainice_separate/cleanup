@@ -1,0 +1,7 @@
+rm *_parameter_doc*
+rm RESTART/*
+rm available_diags*
+rm logfile*
+rm time_stamp.out
+rm *stats
+rm *.nc

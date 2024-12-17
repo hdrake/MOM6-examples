@@ -1,0 +1,2 @@
+./cleanup
+mpirun -n 8 ../../build_rainice_separate/ice_ocean_SIS2/MOM6

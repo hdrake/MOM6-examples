@@ -1,0 +1,3 @@
+cd src/MOM6; git checkout separate-seaice-melt; cd ../../
+cd src/SIS2; git checkout separate-seaice-melt; cd ../../
+cd src/coupler; git checkout separate-seaice-melt; cd ../../
