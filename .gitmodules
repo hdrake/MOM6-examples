@@ -1,11 +1,11 @@
 [submodule "src/MOM6"]
 	path = src/MOM6
-	url = https://github.com/gfdl-cryosphere/MOM6.git
-	branch = dev/cryo
+	url = https://github.com/hdrake/MOM6.git
+	branch = meltworld
 [submodule "src/SIS2"]
 	path = src/SIS2
-	url = http://github.com/gfdl-cryosphere/SIS2.git
-	branch = dev/cryo
+	url = https://github.com/hdrake/SIS2.git
+	branch = meltworld
 [submodule "tools/matlab/gtools"]
 	path = tools/matlab/gtools
 	url = https://github.com/Adcroft/gtools.git
@@ -14,12 +14,12 @@
 	url = https://github.com/mjharriso/MIDAS.git
 [submodule "src/icebergs"]
 	path = src/icebergs
-	url = https://github.com/gfdl-cryosphere/icebergs.git
-	branch = dev/cryo
+	url = https://github.com/hdrake/icebergs.git
+	branch = meltworld
 [submodule "src/coupler"]
 	path = src/coupler
-	url = https://github.com/gfdl-cryosphere/FMScoupler.git
-	branch = dev/cryo
+	url = https://github.com/hdrake/FMScoupler.git
+	branch = meltworld
 [submodule "src/atmos_null"]
 	path = src/atmos_null
 	url = https://github.com/NOAA-GFDL/atmos_null.git
